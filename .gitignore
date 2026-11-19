@@ -1,0 +1,11 @@
+# Safety net for the whole repo (each subfolder also has its own .gitignore)
+__pycache__/
+*.pyc
+.env
+.venv/
+propainter-env/
+out/
+*.safetensors
+*.pth
+*.ckpt
+*.mp4

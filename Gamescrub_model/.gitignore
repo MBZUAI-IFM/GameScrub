@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+out/
+third_party/ltx-kernels/build/
+third_party/ltx-kernels/src/*.so
+third_party/ltx-kernels/src/*.egg-info/

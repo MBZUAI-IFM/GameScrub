@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+out/
+# Python environments created by the README setup steps
+.venv/
+propainter-env/
+# checkpoints and media should never be committed
+*.safetensors
+*.pth
+*.mp4

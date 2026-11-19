@@ -1,0 +1,17 @@
+# Extra packages for multi-GPU long-video inference (inference/generate_long_multigpu.py).
+# Install AFTER requirements.txt, then build the bundled ltx-kernels (see README.md):
+#
+#   uv pip install --no-deps -r requirements-multigpu.txt
+#
+# nvidia-cuda-nvcc / -cccl / -crt / nvvm provide the CUDA 13.2 compiler used to build the kernels.
+backports-strenum==1.3.1
+ninja==1.13.2
+nvidia-cuda-cccl==13.2.75
+nvidia-cuda-crt==13.2.78
+nvidia-cuda-nvcc==13.2.78
+nvidia-nvvm==13.2.78
+nvidia-cutlass-dsl==4.8.1
+nvidia-cutlass-dsl-libs-base==4.8.1
+nvidia-cutlass-dsl-libs-core==4.8.1
+nvidia-cutlass-dsl-libs-cu12==4.8.1
+protobuf==7.36.2
