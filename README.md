@@ -38,13 +38,6 @@ only the video: the boxes are drawn here for illustration.</sub>
 ## 📊 Results
 
 <p align="center">
-  <img src="figures/teaser.jpg" alt="Minimap, health bar, crosshair, subtitle and watermark removal, compared with GameCleaner and Kiwi-Edit" width="100%">
-</p>
-
-<sub>Each panel splits the frame diagonally: input with HUD on one side, GameScrub output on
-the other. Bottom row: zoom on the HUD region for GameCleaner, Kiwi-Edit and GameScrub.</sub>
-
-<p align="center">
   <img src="figures/results.png" alt="Per-metric radar chart and removal-versus-preservation plot for all methods" width="100%">
 </p>
 
