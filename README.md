@@ -4,11 +4,9 @@
 
 ### Learning HUD Removal from Real Gameplay with Recovered Targets
 
-**Mohammad Areeb Qazi**<sup>\*</sup> · Yiyan Hu · Yanan Wang · Xuezhi Liang · Xin Li · Fan Yang · Xin Gao · Guangyi Liu
+Mohammad Areeb Qazi · Yiyan Hu · Yanan Wang · Xuezhi Liang · Xin Li · Fan Yang · Xin Gao · Guangyi Liu
 
 Institute of Foundation Models
-
-<sub><sup>\*</sup>Corresponding author</sub>
 
 [![Project Page](https://img.shields.io/badge/Project-Page-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://areeb2735.github.io/gamescrub/)
 [![Model](https://img.shields.io/badge/🤗_Hugging_Face-Model-ffcc4d?style=for-the-badge)](https://huggingface.co/mohammadareebqazi/GameScrub)
