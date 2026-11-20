@@ -13,10 +13,12 @@
 returns the same clip with the minimap, health bar, crosshair, subtitles, markers and
 watermarks removed. No masks, no boxes, no prompts.
 
-<img src="figures/teaser.jpg" alt="GameScrub removes minimaps, health bars, crosshairs, subtitles and watermarks, compared with GameCleaner and Kiwi-Edit" width="100%">
+<img src="figures/teaser.png" alt="A gameplay frame with 11 labelled HUD elements, and the same frame after GameScrub with all of them removed" width="100%">
 
-<sub>Each panel splits the frame diagonally: input with HUD on one side, GameScrub output on
-the other. Bottom row: zoom on the HUD region for GameCleaner, Kiwi-Edit and GameScrub.</sub>
+<sub>(a) A real gameplay clip with 11 HUD elements: fixed on screen (minimap, player status,
+objective, ability status), moving with the scene (world markers) and appearing and
+vanishing (screen notices, interaction prompt). (b) The GameScrub output. The model gets
+only the video: the boxes are drawn here for illustration.</sub>
 
 </div>
 
@@ -34,6 +36,13 @@ the other. Bottom row: zoom on the HUD region for GameCleaner, Kiwi-Edit and Gam
   by a box-guided data pipeline, which is also released here.
 
 ## 📊 Results
+
+<p align="center">
+  <img src="figures/teaser.jpg" alt="Minimap, health bar, crosshair, subtitle and watermark removal, compared with GameCleaner and Kiwi-Edit" width="100%">
+</p>
+
+<sub>Each panel splits the frame diagonally: input with HUD on one side, GameScrub output on
+the other. Bottom row: zoom on the HUD region for GameCleaner, Kiwi-Edit and GameScrub.</sub>
 
 <p align="center">
   <img src="figures/results.png" alt="Per-metric radar chart and removal-versus-preservation plot for all methods" width="100%">
