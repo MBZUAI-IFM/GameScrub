@@ -8,6 +8,7 @@ Mohammad Areeb Qazi · Yiyan Hu · Yanan Wang · Xuezhi Liang · Xin Li · Fan Y
 
 Institute of Foundation Models
 
+[![Paper](https://img.shields.io/badge/arXiv-2611.27547-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.27547)
 [![Project Page](https://img.shields.io/badge/Project-Page-1f6feb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://areeb2735.github.io/gamescrub/)
 [![Model](https://img.shields.io/badge/🤗_Hugging_Face-Model-ffcc4d?style=for-the-badge)](https://huggingface.co/mohammadareebqazi/GameScrub)
 [![Base Model](https://img.shields.io/badge/Base-LTX--2.5_22B-8250df?style=for-the-badge)](https://huggingface.co/Lightricks/LTX-2.5)
@@ -222,6 +223,22 @@ folders, so you can download them once and point both `.env` files at them.
     ├── scripts/                  run_pipeline.py, run_pipeline_batch.py, check_setup.py
     ├── docs/bboxes_schema.md     input box format
     └── third_party/              LTX-2 (e98f6d9), ProPainter (3267825)
+```
+
+## 📝 Citation
+
+If you use GameScrub in your research, please cite our [paper](https://arxiv.org/abs/2611.27547):
+
+```bibtex
+@misc{qazi2026gamescrublearninghudremoval,
+      title={GameScrub: Learning HUD Removal from Real Gameplay with Recovered Targets},
+      author={Mohammad Areeb Qazi and Yiyan Hu and Yanan Wang and Xuezhi Liang and Xin Li and Fan Yang and Xin Gao and Guangyi Liu},
+      year={2026},
+      eprint={2611.27547},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.27547},
+}
 ```
 
 ## 📜 License
